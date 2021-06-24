@@ -1,0 +1,281 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+
+/*
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e2e2e2;
+}
+
+.register-title {
+  font-size: 24px;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.register-input {
+  text-align: center;
+}
+
+.register-input input {
+  display: block;
+  margin: 0 auto;
+}
+
+.register-input label {
+  display: block;
+  margin-top: 1em;
+}
+
+.register-action button {
+  display: block;
+  margin: 2em auto 0 auto;
+}
+
+.login-title {
+  font-size: 24px;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.login-input {
+  text-align: center;
+}
+
+.login-input input {
+  display: block;
+  margin: 0 auto;
+}
+
+.login-input label {
+  display: block;
+  margin-top: 1em;
+}
+
+.login-action button {
+  display: block;
+  margin: 2em auto 0 auto;
+}
+
+.logo a {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.menu ul li {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.navbar {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px 3px #d6d6d6;
+          box-shadow: 0 0 10px 3px #d6d6d6;
+}
+
+.navbar .menu ul li {
+  display: inline-block;
+  margin-right: 3em;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 3em;
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  display: block;
+}
+
+.logout {
+  height: 30px;
+  width: 30px;
+  margin-top: 1em;
+}
+/*# sourceMappingURL=index.css.map */ 
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  height: 100%;
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+.navbar {
+  margin: 0 2rem;
+}
+/* ---------------- Log in page's styles --------------- */
+.login-card{
+  max-width: 500px;
+  width: 100%;
+  margin: 9rem auto 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.login-title{
+  font-size: 24px;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.login-btn{
+  margin-top: 1.5rem;
+  font-size: 16px;
+
+}
+/* ---------------- Register page's styles --------------- */
+.register-title{
+  font-size: 24px;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.register-card{
+  max-width: 500px;
+  width: 100%;
+  margin: 9rem auto 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.register-btn{
+  font-size: 16px;
+  font-weight: bold;
+}
+.create-input{
+  margin-top: 3rem;
+}
+/* --------------------- ---------------------*/
+.a-note{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(0 0 0 / 15%);
+}
+.notee{
+  width: 70%;
+}
+.note-text{
+  padding: 2px 5px;
+  color: #00283c;
+  font-size: 26px;
+}
+.delete-button,
+.delete-button:hover{
+  background-color: #e53935 !important;
+  border-radius: 5px;
+/*  margin-top: 1rem;
+  margin-left: 9px; */
+  padding: 0;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+/* --------------------- ---------------------*/
+.notes-page-content{
+  display: flex;
+  align-items: flex-start;
+  max-height: 1300px;
+  height: 100%;
+}
+.side-panel{
+  max-width: 300px;
+  width: 100%;
+  
+  margin-right: 5rem;
+
+  background-color: #009688;
+}
+.side-panel-items{
+  display: block;
+}
+.nav-item-text{
+  font-size: 16px;
+  font-weight: bold;
+}
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+
+  background-color: #fff;
+  min-height: 100vh;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 14%), 0 3px 1px rgb(0 0 0 / 12%), 0 1px 5px rgb(0 0 0 / 20%), inset 0 2px 0px rgb(0 0 0 / 7%), inset 0 2px 0px rgb(0 0 0 / 6%), inset 0 1px 0px rgb(0 0 0 / 10%);
+  /*box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 9%);*/
+}
+.side-bar a{
+  margin-left: 2rem;
+  color: black;
+}
+.side-item{
+  padding: 5px 15px;
+  margin: 3rem 1rem 3rem 1rem;
+  font-size: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+  background-color: rgba(0, 139, 0, 0.507); 
+}
+/*-----------------ICONS-------------------*/
+.delete-btn-icon{
+  height: 28px;
+  margin-top: .2rem;
+}
+.logo-icon{
+  height: 40px;
+  margin-top: .8rem;
+}
+.index-text{
+  font-size: 20px;
+  margin-top: 2rem;
+}
+.check-box{
+  position: relative;
+  padding: 10px;
+}
+.navbar-icon{
+  height: 30px;
+  width: 30px;
+  margin: 1.1rem 0.5rem 0 .5rem;
+}
+.div-nav-icon{
+  height: 64px;
+}
+.logo-text{
+  font-size: 30px;
+  margin-left: 3rem;
+  position: absolute;
+}
+.brand-logo{
+  height: 64px;
+}
+.side-icon{
+  position: absolute;
+  height: 20px;
+  margin: 0.3rem .5rem 0 0;
+}
+.color{
+  background-color: #f5f5f5;
+}

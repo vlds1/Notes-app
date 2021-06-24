@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e2e2e2;
+}
+
+.register-title{
+    font-size: 24px;
+    margin: 2em 0;
+    text-align: center;
+}
+.register-input{
+    text-align: center;
+    input{
+        display: block;
+        margin: 0 auto;
+    }
+    label{
+        display: block;
+        margin-top: 1em;
+    }
+}
+.register-action{
+    button{
+        display: block;
+        margin: 2em auto 0 auto;
+    }
+}
+.login-title{
+    font-size: 24px;
+    margin: 2em 0;
+    text-align: center;
+}
+.login-input{
+    text-align: center;
+    input{
+        display: block;
+        margin: 0 auto;
+    }
+    label{
+        display: block;
+        margin-top: 1em;
+    }
+}
+.login-action{
+    button{
+        display: block;
+        margin: 2em auto 0 auto;
+    }
+}
+.logo a{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.menu{
+    display: inline-block;
+}
+.menu ul li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    a{
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+}
+.navbar{ 
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 10px 3px #d6d6d6;
+    .menu ul li{
+        display: inline-block;
+        margin-right: 3em;
+    }
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    margin-left: 3em;
+    background-color: #e2e2e2;
+    border-radius: 50%;
+    display: block;
+}
+.logout{
+    height: 30px;
+    width: 30px;
+    margin-top: 1em;
+}
+.login-card{
+    input{
+        background-color: #fff;
+    }
+}
